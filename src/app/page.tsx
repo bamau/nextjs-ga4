@@ -6,7 +6,7 @@ export default function Home() {
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
       <button
         onClick={() => {
-          sendGAEvent({ event: 'custom_event', value: 'click', debug_mode: true })
+          sendGAEvent({ event: 'click', value: 'click', debug_mode: true })
           alert('button_clicked')
         }}
       >
